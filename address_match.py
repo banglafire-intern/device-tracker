@@ -60,7 +60,7 @@ def address_match(mac_list):
   for x in myresult:
     for y in mac_list:
       if(y[3]==x[1]):
-        #print('Matched!')
+        print('Matched: '+x[1]+' User: '+str(x[0]))
         sendAttendance(x)
 
 
